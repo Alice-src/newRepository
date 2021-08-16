@@ -388,7 +388,11 @@ $colorBlankstateBackground: rgba($colorTextBody, 0.05);
 // Overwrite height settings for collection grid.
 .grid-link__image-centered {
   .placeholder-svg {
+<<<<<<< HEAD
     height: 100%;
+=======
+    height: initial;
+>>>>>>> origin/master
     max-height: initial;
   }
 }
@@ -851,12 +855,21 @@ html, body { background: $colorBody; }
 
 /*================ Index sections ================*/
 .index-section {
+<<<<<<< HEAD
   padding-top: $section-spacing-small / 2.5;
   padding-bottom: $section-spacing-small / 2.5;
 
   @include at-query($min, $large) {
     padding-top: $section-spacing / 2.5;
     padding-bottom: $section-spacing / 2.5;
+=======
+  padding-top: $section-spacing-small / 2;
+  padding-bottom: $section-spacing-small / 2;
+
+  @include at-query($min, $large) {
+    padding-top: $section-spacing / 2;
+    padding-bottom: $section-spacing / 2;
+>>>>>>> origin/master
   }
 
   .shopify-section:first-child & {
@@ -1217,6 +1230,7 @@ html, body { background: $colorBody; }
 .grid-link__collection-title {
   display: inline-table;
   position: absolute;
+<<<<<<< HEAD
   font-size: 1.25rem;
   background-color: rgba(255, 255, 255, .7);
   left: 0;
@@ -1224,6 +1238,15 @@ html, body { background: $colorBody; }
   bottom: 2.5rem;
   width: 70%;
   padding: .75rem;
+=======
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, .7);
+  left: 0;
+  right: 0;
+  bottom: 1.5rem;
+  width: 70%;
+  padding: 1.5rem 3rem;
+>>>>>>> origin/master
   margin: auto;
   line-height: 1.8;
 }
@@ -1710,8 +1733,11 @@ $badgeSize: 60px;
 
 .featured-blog__post {
   margin-bottom: $gridGutter;
+<<<<<<< HEAD
   border: 1px solid #dadada;
   padding: 1rem;
+=======
+>>>>>>> origin/master
 
   @include at-query($max, $small) {
     margin-bottom: $gridGutter * 1.25;
@@ -1740,22 +1766,32 @@ $badgeSize: 60px;
 
   .rte {
     margin-top: $gridGutter * 0.75;
+<<<<<<< HEAD
     margin-bottom: $gridGutter * 0.75;
     text-align: center;
+=======
+>>>>>>> origin/master
     @include at-query($max, $small) {
       margin-bottom: $gridGutterMobile * 0.75;
     }
   }
 
   .h3 {
+<<<<<<< HEAD
     margin-top: 0;
     text-align: center;
+=======
+    margin-top: -5px;
+>>>>>>> origin/master
   }
 
   .featured-blog__meta {
     font-size: .85em;
     margin-bottom: -5px;
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> origin/master
   }
 }
 

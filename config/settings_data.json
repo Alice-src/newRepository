@@ -45,6 +45,7 @@
         "settings": {
           "header_search_enable": true,
           "logo_max_width": "90",
+<<<<<<< HEAD
           "nav_menu": "main-menu",
           "nav_below_logo": false,
           "left_aligned_logo": true,
@@ -52,6 +53,11 @@
           "show_announcement": true,
           "header_text": "Announce something here",
           "announcement_link": ""
+=======
+          "nav_below_logo": false,
+          "left_aligned_logo": true,
+          "show_header_lines": true
+>>>>>>> origin/master
         }
       },
       "footer": {
@@ -62,6 +68,7 @@
             "settings": {
               "blog": "news"
             }
+<<<<<<< HEAD
           },
           "footer-1": {
             "type": "menu",
@@ -251,19 +258,56 @@
         "type": "gallery",
         "blocks": {
           "16291262268bd7854a-0": {
+=======
+          },
+          "footer-1": {
+            "type": "menu",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "social",
+            "settings": {}
+          },
+          "footer-3": {
+            "type": "newsletter",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2",
+          "footer-3"
+        ],
+        "settings": {
+          "show_methods_of_payment": true
+        }
+      },
+      "slider": {
+        "type": "slider",
+        "blocks": {
+          "slider-0": {
+>>>>>>> origin/master
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/proxy.elfsightcdn.com.jpg",
               "link": "https:\/\/www.instagram.com\/p\/BlSsXbRHEmV\/"
             }
           },
+<<<<<<< HEAD
           "16291262268bd7854a-1": {
+=======
+          "slider-1": {
+>>>>>>> origin/master
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/proxy.elfsightcdn.com2.jpg",
               "link": "https:\/\/www.instagram.com\/p\/BlSsUapHcA4\/"
             }
           },
+<<<<<<< HEAD
           "16291262268bd7854a-2": {
             "type": "image",
             "settings": {
@@ -286,13 +330,105 @@
           "5ef13f91-e82a-4389-b182-586d7380c6ca"
         ],
         "settings": {}
+=======
+          "slider-2": {
+            "type": "image",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "slider-0",
+          "slider-1",
+          "slider-2"
+        ],
+        "settings": {
+          "slider_autorotate": false,
+          "slider_autorotate_rate": 5,
+          "slider_home_transition": "fade"
+        }
+      },
+      "featured-collection": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Popular this week",
+          "featured_collection": "frontpage",
+          "num_per_row": 4,
+          "num_rows": 2,
+          "vendor_enable": false,
+          "show_sale_circle": true,
+          "show_sold_out_circle": true,
+          "center_grid_link": false
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "settings": {}
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_vendor_enable": true,
+          "product_quantity_enable": false,
+          "product_image_zoom_type": "lightbox",
+          "product_thumbnails_position": "right",
+          "show_extra_tab": false,
+          "extra_tab_content": "",
+          "social_sharing": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "vendor_enable": true,
+          "show_sale_circle": true,
+          "show_sold_out_circle": true,
+          "sort_enable": true,
+          "tags_enable": true,
+          "center_grid_link": false
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "article_author_enable": false,
+          "social_sharing": false
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "settings": {
+          "product_vendor_enable": false,
+          "product_quantity_enable": false,
+          "product_image_zoom_type": "lightbox",
+          "social_sharing": false
+        }
+      },
+      "featured-blog": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "News",
+          "blog": "news",
+          "post_limit": 2,
+          "blog_show_date": true,
+          "blog_show_author": false,
+          "blog_show_image": false,
+          "blog_show_excerpt": true,
+          "show_view_all": false
+        }
+>>>>>>> origin/master
       }
     },
     "content_for_index": [
       "slider",
+<<<<<<< HEAD
       "featured-collection",
       "featured-blog",
       "16291262268bd7854a"
+=======
+      "featured-blog",
+      "featured-collection",
+      "featured-product"
+>>>>>>> origin/master
     ]
   },
   "presets": {
@@ -409,6 +545,7 @@
         },
         "featured-collection": {
           "type": "featured-collection",
+<<<<<<< HEAD
           "settings": {
             "title": "Popular this week",
             "featured_collection": "frontpage",
@@ -436,6 +573,35 @@
             "social_sharing": false
           }
         },
+=======
+          "settings": {
+            "title": "Popular this week",
+            "featured_collection": "frontpage",
+            "num_per_row": 4,
+            "num_rows": 2,
+            "vendor_enable": false,
+            "show_sale_circle": true,
+            "show_sold_out_circle": true,
+            "center_grid_link": false
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "settings": {}
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_vendor_enable": true,
+            "product_quantity_enable": false,
+            "product_image_zoom_type": "lightbox",
+            "product_thumbnails_position": "right",
+            "show_extra_tab": false,
+            "extra_tab_content": "",
+            "social_sharing": false
+          }
+        },
+>>>>>>> origin/master
         "collection-template": {
           "type": "collection-template",
           "settings": {
@@ -535,6 +701,7 @@
                 "menu_title": "Links",
                 "menu": "footer"
               }
+<<<<<<< HEAD
             },
             "footer-1": {
               "type": "blog",
@@ -542,6 +709,15 @@
                 "blog": "news"
               }
             },
+=======
+            },
+            "footer-1": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            },
+>>>>>>> origin/master
             "footer-2": {
               "type": "social",
               "settings": {}
@@ -603,6 +779,7 @@
         },
         "feature-row-1": {
           "type": "feature-row",
+<<<<<<< HEAD
           "settings": {
             "layout": "left"
           }
@@ -624,6 +801,29 @@
         "collection-template": {
           "type": "collection-template",
           "settings": {
+=======
+          "settings": {
+            "layout": "left"
+          }
+        },
+        "map": {
+          "type": "map",
+          "settings": {}
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_vendor_enable": true,
+            "product_quantity_enable": true,
+            "product_image_zoom_type": "zoom-in",
+            "product_thumbnails_position": "below",
+            "social_sharing": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+>>>>>>> origin/master
             "vendor_enable": true,
             "show_sale_circle": true,
             "show_sold_out_circle": true,
