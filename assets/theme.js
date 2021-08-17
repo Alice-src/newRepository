@@ -1876,3 +1876,4 @@ theme.equalHeights = function($selector) {
 
 // Initialize theme's JS on docready
 $(theme.init);
+

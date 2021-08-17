@@ -57,12 +57,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "blog",
-            "settings": {
-              "blog": "news"
-            }
-          },
           "footer-1": {
             "type": "menu",
             "settings": {
@@ -82,7 +76,6 @@
           }
         },
         "block_order": [
-          "footer-0",
           "footer-1",
           "footer-2",
           "footer-3"
@@ -286,11 +279,76 @@
           "5ef13f91-e82a-4389-b182-586d7380c6ca"
         ],
         "settings": {}
+      },
+      "1629203320c1fda5a6": {
+        "type": "collection-slider",
+        "settings": {
+          "title": "Featured Products",
+          "collection": "snacks",
+          "product_count": 8
+        }
+      },
+      "1629204867e679bddb": {
+        "type": "collection-slider",
+        "settings": {
+          "title": "Most Popular Products",
+          "collection": "frontpage",
+          "product_count": 8
+        }
+      },
+      "16292049161472688c": {
+        "type": "collection-slider",
+        "settings": {
+          "title": "New Products",
+          "collection": "deserts",
+          "product_count": 8
+        }
+      },
+      "1629205358502dca39": {
+        "type": "collection-list",
+        "blocks": {
+          "1629205358502dca39-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "breakfast"
+            }
+          },
+          "1629205358502dca39-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "juice"
+            }
+          },
+          "1629205358502dca39-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "meals"
+            }
+          },
+          "1629205358502dca39-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "snacks"
+            }
+          }
+        },
+        "block_order": [
+          "1629205358502dca39-0",
+          "1629205358502dca39-1",
+          "1629205358502dca39-2",
+          "1629205358502dca39-3"
+        ],
+        "settings": {
+          "title": ""
+        }
       }
     },
     "content_for_index": [
       "slider",
-      "featured-collection",
+      "1629205358502dca39",
+      "16292049161472688c",
+      "1629203320c1fda5a6",
+      "1629204867e679bddb",
       "featured-blog",
       "16291262268bd7854a"
     ]
